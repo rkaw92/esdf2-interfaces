@@ -5,9 +5,3 @@ export interface CommitBuilder {
     buildCommit(commitLocation: CommitLocation, eventStart: EventLocation): Commit;
 };
 
-// By convention, the commit builder is found under a symbol property
-//  in aggregate root instances:
-export const EVENTS = Symbol('pending events');
-export interface CommitBuilderProvider {
-    [EVENTS]: CommitBuilder;
-};
