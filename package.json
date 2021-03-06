@@ -1,6 +1,6 @@
 {
   "name": "esdf2-interfaces",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "interface package for esdf",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
