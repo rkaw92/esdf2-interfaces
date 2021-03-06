@@ -1,0 +1,22 @@
+{
+  "name": "esdf2-interfaces",
+  "version": "0.1.0",
+  "description": "interface package for esdf",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "keywords": [
+    "esdf",
+    "esdf2",
+    "interfaces",
+    "event",
+    "sourcing"
+  ],
+  "author": "Robert Kawecki <robert+public@rkaw.pl>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
