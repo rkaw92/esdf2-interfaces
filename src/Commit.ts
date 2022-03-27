@@ -1,8 +1,8 @@
 import { QualifiedDomainEvent } from './DomainEvent';
-import { CommitLocation } from './Location';
+import { AggregateCommitLocation } from './Location';
 
 export interface BareCommit {
-    location: CommitLocation;
+    location: AggregateCommitLocation;
 }
 
 export interface Commit extends BareCommit {

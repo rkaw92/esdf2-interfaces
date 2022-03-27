@@ -1,4 +1,4 @@
-import { EventLocation } from "./Location";
+import { AggregateEventLocation } from "./Location";
 
 export interface DomainEvent {
     type: string;
@@ -7,5 +7,5 @@ export interface DomainEvent {
 
 export interface QualifiedDomainEvent extends DomainEvent {
     id: string;
-    location: EventLocation;
+    location: AggregateEventLocation;
 };
